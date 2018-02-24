@@ -14,6 +14,7 @@
 		634EB3E02027190700082957 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 634EB3DE2027190700082957 /* LaunchScreen.storyboard */; };
 		634EB3E32027190700082957 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 634EB3E22027190700082957 /* main.m */; };
 		63B692FB203DBD17006DD4E4 /* ZBFPSLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B692FA203DBD17006DD4E4 /* ZBFPSLabel.m */; };
+		63D324AE2041490C00434FD8 /* TestTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D324AD2041490C00434FD8 /* TestTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		634EB3E22027190700082957 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		63B692F9203DBD17006DD4E4 /* ZBFPSLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZBFPSLabel.h; sourceTree = "<group>"; };
 		63B692FA203DBD17006DD4E4 /* ZBFPSLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZBFPSLabel.m; sourceTree = "<group>"; };
+		63D324AC2041490C00434FD8 /* TestTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestTableViewCell.h; sourceTree = "<group>"; };
+		63D324AD2041490C00434FD8 /* TestTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +69,8 @@
 				634EB3D42027190700082957 /* AppDelegate.m */,
 				634EB3D62027190700082957 /* ViewController.h */,
 				634EB3D72027190700082957 /* ViewController.m */,
+				63D324AC2041490C00434FD8 /* TestTableViewCell.h */,
+				63D324AD2041490C00434FD8 /* TestTableViewCell.m */,
 				634EB3D92027190700082957 /* Main.storyboard */,
 				634EB3DC2027190700082957 /* Assets.xcassets */,
 				634EB3DE2027190700082957 /* LaunchScreen.storyboard */,
@@ -156,6 +161,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				63B692FB203DBD17006DD4E4 /* ZBFPSLabel.m in Sources */,
+				63D324AE2041490C00434FD8 /* TestTableViewCell.m in Sources */,
 				634EB3D82027190700082957 /* ViewController.m in Sources */,
 				634EB3E32027190700082957 /* main.m in Sources */,
 				634EB3D52027190700082957 /* AppDelegate.m in Sources */,
@@ -293,6 +299,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X5L85KS9B2;
 				INFOPLIST_FILE = ZBFPSLabel_Demo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.zeinber.ZBFPSLabel-Demo";
@@ -306,6 +313,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X5L85KS9B2;
 				INFOPLIST_FILE = ZBFPSLabel_Demo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.zeinber.ZBFPSLabel-Demo";
